@@ -1,4 +1,1 @@
-streamlit
-numpy
-Pillow
-tensorflow==2.16.1
+
