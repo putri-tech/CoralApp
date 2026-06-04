@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 from PIL import Image
 import os
-import tensorflow as tf
+import tflite_runtime.interpreter as tflite
 
 tflite = tf.lite
 
