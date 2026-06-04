@@ -2,7 +2,9 @@ import streamlit as st
 import numpy as np
 from PIL import Image
 import os
-import tflite_runtime.interpreter as tflite
+import tensorflow as tf
+
+tflite = tf.lite
 
 # ==========================================
 # 1. KONFIGURASI HALAMAN
